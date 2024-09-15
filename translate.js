@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
         },
         {
           headers: {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer sk-or-v1-8e',
             'Content-Type': 'application/json',
             'HTTP-Referer': 'https://your-app-url.com', // Replace with your actual app URL
             'X-Title': 'OpenRouter Translate Serverless' // Replace with your app name
