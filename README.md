@@ -1,14 +1,24 @@
-# OpenRouter Translate
+# OpenRouter Translate Serverless
 
 This project provides a serverless translation service using OpenRouter API, deployed on Vercel.
 
 ## Features
 
 - Serverless deployment on Vercel
-- Uses OpenRouter API to access GPT-3.5-turbo for translations
+- Uses OpenRouter API to access language models for translations
 - Simple API interface
 
-## Deployment
+## One-Click Deployment
+
+You can deploy this project to Vercel with one click using the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fopenrouter-translate-serverless&env=OPENROUTER_API_KEY&project-name=openrouter-translate-serverless&repository-name=openrouter-translate-serverless)
+
+Note: Replace `yourusername` in the URL with your actual GitHub username.
+
+## Manual Deployment
+
+If you prefer to deploy manually:
 
 1. Fork this repository
 2. Sign up for a Vercel account if you haven't already
