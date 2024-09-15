@@ -1,0 +1,19 @@
+{
+  "name": "openrouter-translate",
+  "version": "1.0.0",
+  "description": "OpenRouter translation API proxy for Vercel",
+  "main": "api/translate.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "vercel": "^23.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
