@@ -19,10 +19,10 @@ module.exports = async (req, res) => {
         },
         {
           headers: {
-            'Authorization': 'Bearer sk-or-v1-8e',
+            'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
             'Content-Type': 'application/json',
-            'HTTP-Referer': 'https://your-app-url.com', // Replace with your actual app URL
-            'X-Title': 'OpenRouter Translate Serverless' // Replace with your app name
+            'HTTP-Referer': process.env.VERCEL_URL || 'http://localhost:3000',
+            'X-Title': 'OpenRouter Translate Serverless'
           }
         }
       );
