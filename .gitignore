@@ -1,0 +1,16 @@
+# Anaconda related
+.anaconda/
+.conda/
+
+# Bash history
+.bash_history
+
+# Config files
+.config/
+
+# HiHonorNote related
+.config/hihonornote/
+ config/hihonornote/
+
+# Other specific files
+.condarc
