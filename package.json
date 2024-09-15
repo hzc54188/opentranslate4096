@@ -1,5 +1,5 @@
 {
-  "name": "openrouter-translate",
+  "name": "opentranslate4096",
   "version": "1.0.0",
   "description": "OpenRouter translation API proxy for Vercel",
   "main": "api/translate.js",
