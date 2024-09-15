@@ -1,16 +1,31 @@
-# Anaconda related
-.anaconda/
-.conda/
+# 不忽略特定文件夹中的所有内容
+!/allowed folder/**
 
-# Bash history
-.bash_history
+# 不忽略 opentranslate4096 文件夹
+!/opentranslate4096/
+!/opentranslate4096/**
 
-# Config files
-.config/
 
-# HiHonorNote related
-.config/hihonornote/
- config/hihonornote/
 
-# Other specific files
-.condarc
+# 忽略所有文件和文件夹
+*
+*/
+
+# 不忽略特定文件夹
+!/allowed_folder/
+
+# 不忽略特定文件夹中的所有内容
+!/allowed_folder/**
+
+
+# 但不忽略这个特定文件（替换为您想要允许的文件名）
+!allowed_file.txt
+
+# 忽略特定文件夹中的所有内容
+/path/to/objects/folder/*
+
+# 或者忽略特定类型的文件
+*.objectextension
+
+# 如果是特定名称模式的文件
+object_*
